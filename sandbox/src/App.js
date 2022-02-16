@@ -1,29 +1,29 @@
-import logo from './logo.svg';
+/*
+    This page serves as the router controller
+*/
+
+import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
+import Home from './pages';
+import About from './pages/about';
+import LatestNews from './pages/latestNews';
+import SignUp from './pages/signup';
 
-function CrypticMessage(){
-  return <p>Situation Awkward. Do I wait for the process or do I go back to the market?</p>
-}
-
+//Routes for Home, about, latest news, and sign up pages are defined here. 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <CrypticMessage />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return(
+    <Router>
+    <Navbar />
+    <Routes>
+      <Route exact path='/' exact element={<Home />} /> 
+      <Route path='/about' element={<About />} />
+      <Route path='/latestNews' element={<LatestNews />}/>
+      <Route path='/signUp' element={<SignUp />}/>
+    </Routes>
+    </Router>
   );
 }
 
