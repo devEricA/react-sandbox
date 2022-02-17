@@ -1,3 +1,7 @@
+/*
+    This page is responsible for the Latest News page
+*/
+
 import React from 'react'
 
 const LatestNews = () =>{

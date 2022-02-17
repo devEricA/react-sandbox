@@ -20,8 +20,8 @@ const Navbar = () => {
                 <NavLink to="/latestNews" activeStyle>
                     Latest News
                 </NavLink>
-                <NavLink to="/signUp" activeStyle>
-                    Sign Up
+                <NavLink to="/new-page" activeStyle>
+                    New Page
                 </NavLink>
             </NavMenu>
         </Nav>
