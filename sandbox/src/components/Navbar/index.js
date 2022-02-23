@@ -10,7 +10,7 @@ import {Nav, NavLink, NavMenu} from './NavbarElements';
 const Navbar = () => {
     return(
         <Nav>
-            <NavMenu>
+            <NavMenu name = "MainNavMenu">
                 <NavLink to="/" activeStyle>
                     Home
                 </NavLink>

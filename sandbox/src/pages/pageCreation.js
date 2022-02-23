@@ -34,7 +34,7 @@ Button.defaultProps = {
 //Function that runs whenever the button is clicked. 
 //For now, it generates an alert window.
 function buttonTrigger(){
-    alert("Button has been pressed. \nCount yourself lucky that it's not 001-J");
+    alert("Shucks, creating a new page via this button is quite tricky.\nResearch for the ability to create is underway.\nIf you have an idea on how to approach this,\nopen an issue in this project's github.");
 };
 
 //Builds the page.
