@@ -8,4 +8,4 @@ As User Interfaces become more and more sofisticated, React is becoming more and
 Develop a website with React that contains a home page, a series of other pages, and the ability to create a new page. 
 
 # Additional Notes
-Compiled in a Linux Mint environment via <code> npm start </code> using npm version 8.5.0
+Compiled in a Linux Mint environment via <code> npm start </code> using npm version 8.5.0 and node version 16.14.0.
